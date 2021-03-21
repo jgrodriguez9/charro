@@ -1,7 +1,7 @@
 [
     {
         "name": "TACOS",
-        "descripcion": "Extra queso +5.00",
+        "descripcion": "Extra queso +5.00 pesos",
         "products": [
             {
                 "name": "Arrachera",

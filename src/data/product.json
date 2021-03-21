@@ -40,7 +40,7 @@
         ]
     },
     {
-        "name": "SOPES Y GUARACHES",
+        "name": "SOPES Y HUARACHES",
         "descripcion": "",
         "products": [
             {
@@ -107,7 +107,7 @@
     },
     {
         "name": "TORTAS",
-        "descripcion": "Acompañadas de papas cambray salteadas y 1 agua de sabor",
+        "descripcion": "Acompañadas de papas cambray salteadas y  un agua de sabor",
         "products": [
             {
                 "name": "Milanesa (pollo)",
@@ -118,7 +118,7 @@
                 "precio": "$65.00"
             },
             {
-                "name": "Cubana (huevo, chorizo, jamón , salchicha, queso)",
+                "name": "Cubana (huevo, chorizo, jamón, salchicha, queso)",
                 "precio": "$75.00"
             }
         ]
@@ -146,7 +146,7 @@
                 "precio": "$25.00"
             },
             {
-                "name": "Agua de orchata",
+                "name": "Agua de horchata",
                 "precio": "$25.00"
             },
             {
