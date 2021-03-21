@@ -1,0 +1,174 @@
+[
+    {
+        "name": "CHILAQUILES",
+        "descripcion": "Todos van acompañados con frijol refritos",
+        "products": [
+            {
+                "name": "Con huevo (frito o revuelto)",
+                "precio": "$65.00"
+            },
+            {
+                "name": "Con pollo (desmenusado)",
+                "precio": "$70.00"
+            },
+            {
+                "name": "Con pollo (a la plancha)",
+                "precio": "$70.00"
+            },
+            {
+                "name": "Con arrachera",
+                "precio": "$80.00"
+            }
+        ]
+    },
+    {
+        "name": "OMELET",
+        "descripcion": "",
+        "products": [
+            {
+                "name": "Con queso",
+                "precio": "$60.00"
+            },
+            {
+                "name": "Con jamón y queso",
+                "precio": "$60.00"
+            },
+            {
+                "name": "Vegetariana (calabaza italiana, zanahoria, cebolla, pimineto verde)",
+                "precio": "$60.00"
+            }
+        ]
+    },
+    {
+        "name": "SOPES Y GUARACHES",
+        "descripcion": "",
+        "products": [
+            {
+                "name": "Sope con pollo (desmenusada o a la plancha)",
+                "precio": "$55.00"
+            },
+            {
+                "name": "Sope con bistec",
+                "precio": "$60.00"
+            },
+            {
+                "name": "Sope con arrachera",
+                "precio": "$70.00"
+            },
+            {
+                "name": "Guarache con huevo (frito o revuelto 2 pzas)",
+                "precio": "$55.00"
+            },
+            {
+                "name": "Guarache con bistec",
+                "precio": "$70.00"
+            },
+            {
+                "name": "Guarache con arrachera",
+                "precio": "$75.00"
+            }
+        ]
+    },
+    {
+        "name": "EMPANADAS",
+        "descripcion": "",
+        "products": [
+            {
+                "name": "Con queso",
+                "precio": "$55.00"
+            },
+            {
+                "name": "Con tinga de pollo",
+                "precio": "$55.00"
+            },
+            {
+                "name": "Con picadillo",
+                "precio": "$60.00"
+            },
+            {
+                "name": "Con pollo",
+                "precio": "$60.00"
+            }
+        ]
+    },
+    {
+        "name": "ENCHILADAS",
+        "descripcion": "",
+        "products": [
+            {
+                "name": "Con pollo (Salsa roja o verde)",
+                "precio": "$60.00"
+            },
+            {
+                "name": "Suizas",
+                "precio": "$65.00"
+            }
+        ]
+    },
+    {
+        "name": "TORTAS",
+        "descripcion": "Acompañadas de papas cambray salteadas y 1 agua de sabor",
+        "products": [
+            {
+                "name": "Milanesa (pollo)",
+                "precio": "$65.00"
+            },
+            {
+                "name": "Jamón y queso (pan cuernito)",
+                "precio": "$65.00"
+            },
+            {
+                "name": "Cubana (huevo, chorizo, jamón , salchicha, queso)",
+                "precio": "$75.00"
+            }
+        ]
+    },
+    {
+        "name": "FRUTA",
+        "descripcion": "",
+        "products": [
+            {
+                "name": "Ensalada de frutas (papaya, melón, sandía, plátano)",
+                "precio": "$30.00"
+            },
+            {
+                "name": "Yogurt con fruta y granola",
+                "precio": "$35.00"
+            }
+        ]
+    },
+    {
+        "name": "BEBIDAS",
+        "descripcion": "",
+        "products": [
+            {
+                "name": "Aguas naturales (papaya, melón, sandía)",
+                "precio": "$25.00"
+            },
+            {
+                "name": "Agua de orchata",
+                "precio": "$25.00"
+            },
+            {
+                "name": "Agua de jamaica",
+                "precio": "$25.00"
+            },
+            {
+                "name": "Agua de tamarindo",
+                "precio": "$25.00"
+            },
+            {
+                "name": "Refrescos",
+                "precio": "$20.00"
+            },
+            {
+                "name": "Agua natural botella",
+                "precio": "$20.00"
+            },
+            {
+                "name": "Licuados (papaya, plátano, avena)",
+                "precio": "$35.00"
+            }
+        ]
+    }
+]

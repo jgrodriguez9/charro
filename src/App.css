@@ -1,38 +1,91 @@
-.App {
-  text-align: center;
+body{
+  font-family: 'Roboto Condensed'!important;
+  margin: 0;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.bg-dark1{
+  background-color: #282c34!important;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.bg-white1{
+  background-color: #ffffff!important;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.text-white1{
+  color: #ffffff!important;
+}
+.text-dark1{
+  color: 282c34!important;
+}
+.text-menu{
+  font-size: 12rem;
+}
+.subtext-menu, .subtext-menu-am{
+   width: 100%; 
+   text-align: center; 
+   border-bottom: 1px solid #ffffff; 
+   line-height: 0.1em;
+   margin: 10px 0 20px;
+   font-size: 4rem;
+   font-weight: 300;
+}
+.subtext-menu span, .subtext-menu-am span { 
+  background:#282c34; 
+  padding:0 10px; 
+}
+.subtext-menu-am{
+  border-bottom: 1px solid #282c34; 
+}
+.subtext-menu-am span{
+  background: #ffffff;; 
+}
+.title-product, .title-productam{
+  width: 100%; 
+  text-align: center; 
+  border-bottom: 1px solid #ffffff; 
+  line-height: 0.1em;
+  margin: 10px 0 20px;
+  font-weight: 400;
+  color: #282c34;
+}
+.title-product span,.title-productam span { 
+  background:#ffffff; 
+  padding:0 10px; 
+}
+.title-productam{
+  border-bottom: 1px solid #282c34;
+  color: #ffffff;
+}
+.title-productam span { 
+  background:#282c34; 
+}
+.list-product li{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.list-product li .title{
+  order: 1;
+}
+.list-product li .price{
+  order: 3;
+}
+.list-product li::after {
+  background-image: radial-gradient(circle, currentcolor 1px, transparent 1.5px);
+  background-position: bottom;
+  background-size: 1ex 4.5px;
+  background-repeat: space no-repeat;
+  content: "";
+  flex-grow: 1;
+  height: 1.3em;
+  order: 2;
+}
+.mt-2rem{
+  margin-top: 2rem;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+
+@media (max-width: 575.98px) { 
+  .subtext-menu{
+    font-size: 2rem;
   }
-  to {
-    transform: rotate(360deg);
+  .text-menu{
+    font-size: 5rem;
   }
 }

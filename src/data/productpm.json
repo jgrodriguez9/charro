@@ -1,0 +1,54 @@
+[
+    {
+        "name": "TACOS",
+        "descripcion": "Extra queso +5.00",
+        "products": [
+            {
+                "name": "Arrachera",
+                "precio": "$35.00"
+            },
+            {
+                "name": "Chorizo",
+                "precio": "$25.00"
+            },
+            {
+                "name": "Picaña",
+                "precio": "$35.00"
+            },
+            {
+                "name": "Pechuga de pollo",
+                "precio": "$25.00"
+            },
+            {
+                "name": "Bistec de res",
+                "precio": "$30.00"
+            },
+            {
+                "name": "Bistec de puerco",
+                "precio": "$25.00"
+            }
+        ]
+    },
+    {
+        "name": "EXTRAS",
+        "descripcion": "",
+        "products": [
+            {
+                "name": "Cebolla cambray",
+                "precio": "$35.00"
+            },
+            {
+                "name": "Arroz blanco",
+                "precio": "$35.00"
+            },
+            {
+                "name": "Frijoles charros",
+                "precio": "$35.00"
+            },
+            {
+                "name": "Guacamole",
+                "precio": "$35.00"
+            }
+        ]
+    }
+]
