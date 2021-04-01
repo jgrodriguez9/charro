@@ -26,7 +26,91 @@
             {
                 "name": "Bistec de puerco",
                 "precio": "$25.00"
+            },
+            {
+                "name": "Sirloin",
+                "precio": "$35.00"
+            },
+            {
+                "name": "Chuleta",
+                "precio": "$30.00"
             }
+        ]
+    },
+    {
+        "name": "GRINGAS",
+        "descripcion": "",
+        "products": [
+            {
+                "name": "Arrachera",
+                "precio": "$50.00"
+            },
+            {
+                "name": "Sirloin",
+                "precio": "$50.00"
+            },
+            {
+                "name": "Picaña",
+                "precio": "$50.00"
+            },
+            {
+                "name": "Pollo",
+                "precio": "$50.00"
+            },
+            {
+                "name": "Chorizo",
+                "precio": "$50.00"
+            },
+            {
+                "name": "Campechana",
+                "precio": "$50.00"
+            },
+            {
+                "name": "Chuleta",
+                "precio": "$50.00"
+            }            
+        ]
+    },
+    {
+        "name": "TORTAS",
+        "descripcion": "",
+        "products": [
+            {
+                "name": "Arrachera",
+                "precio": "$75.00"
+            },
+            {
+                "name": "Sirloin",
+                "precio": "$75.00"
+            },
+            {
+                "name": "Picaña",
+                "precio": "$75.00"
+            },
+            {
+                "name": "Pollo",
+                "precio": "$60.00"
+            },
+            {
+                "name": "Chorizo",
+                "precio": "$55.00"
+            },
+            {
+                "name": "Campechana",
+                "precio": "$75.00"
+            },
+            {
+                "name": "Chuleta",
+                "precio": "$60.00"
+            },
+            {
+                "name": "Bistec de cerdo",
+                "precio": "$60.00"
+            } ,
+            {
+                "name": "Bistec de res",
+                "precio": "$65.00"
+            }             
         ]
     },
     {

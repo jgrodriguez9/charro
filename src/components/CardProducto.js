@@ -9,7 +9,7 @@ function CardProducto({items, pm}){
                 <h3 className={`${pm ? 'title-product' : 'title-productam'}`}><span>{item.name}</span></h3>
                 <Card className={`rounded-0 mt-2rem ${pm ?'bg-dark1 text-white-1 border-white' : 'bg-white-1 border-secondary text-dark1'}`}>
                     <Card.Body>
-                    <ul className="list-unstyled list-product">
+                    <ul className="list-unstyled list-product mb-0">
                         {
                             item.products.map((product, p)=>(
                             <li key={p}>
@@ -19,7 +19,7 @@ function CardProducto({items, pm}){
                             ))
                         }                    
                     </ul>  
-                    <label className="font-italic">{item.descripcion}</label>                  
+                    {item.descripcion && <label className='font-italic  mt-3'>{item.descripcion}</label>    }              
                     </Card.Body>
                 </Card>
             </Col>
