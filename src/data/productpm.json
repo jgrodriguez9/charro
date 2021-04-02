@@ -68,7 +68,15 @@
             {
                 "name": "Chuleta",
                 "precio": "$50.00"
-            }            
+            },
+            {
+                "name": "Bistec de cerdo",
+                "precio": "$50.00"
+            },
+            {
+                "name": "Bistec de res",
+                "precio": "$50.00"
+            }        
         ]
     },
     {
