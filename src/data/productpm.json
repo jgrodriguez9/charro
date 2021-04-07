@@ -43,39 +43,39 @@
         "products": [
             {
                 "name": "Arrachera",
-                "precio": "$50.00"
+                "precio": "$75.00"
             },
             {
                 "name": "Sirloin",
-                "precio": "$50.00"
+                "precio": "$75.00"
             },
             {
                 "name": "Picaña",
-                "precio": "$50.00"
+                "precio": "$75.00"
             },
             {
                 "name": "Pollo",
-                "precio": "$50.00"
+                "precio": "$60.00"
             },
             {
                 "name": "Chorizo",
-                "precio": "$50.00"
+                "precio": "$60.00"
             },
             {
                 "name": "Campechana",
-                "precio": "$50.00"
+                "precio": "$60.00"
             },
             {
                 "name": "Chuleta",
-                "precio": "$50.00"
+                "precio": "$60.00"
             },
             {
                 "name": "Bistec de cerdo",
-                "precio": "$50.00"
+                "precio": "$60.00"
             },
             {
                 "name": "Bistec de res",
-                "precio": "$50.00"
+                "precio": "$60.00"
             }        
         ]
     },
@@ -122,6 +122,48 @@
         ]
     },
     {
+        "name": "BURRITOS",
+        "descripcion": "",
+        "products": [
+            {
+                "name": "Arrachera",
+                "precio": "$100.00"
+            },
+            {
+                "name": "Sirloin",
+                "precio": "$100.00"
+            },
+            {
+                "name": "Picaña",
+                "precio": "$100.00"
+            },
+            {
+                "name": "Pollo",
+                "precio": "$85.00"
+            },
+            {
+                "name": "Chorizo",
+                "precio": "$85.00"
+            },
+            {
+                "name": "CampechanO",
+                "precio": "$100.00"
+            },
+            {
+                "name": "Chuleta",
+                "precio": "$85.00"
+            },
+            {
+                "name": "Bistec de cerdo",
+                "precio": "$85.00"
+            } ,
+            {
+                "name": "Bistec de res",
+                "precio": "$85.00"
+            }             
+        ]
+    },
+    {
         "name": "EXTRAS",
         "descripcion": "",
         "products": [
@@ -139,7 +181,7 @@
             },
             {
                 "name": "Guacamole",
-                "precio": "$35.00"
+                "precio": "$50.00"
             }
         ]
     }
