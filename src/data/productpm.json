@@ -182,6 +182,10 @@
             {
                 "name": "Guacamole",
                 "precio": "$50.00"
+            },
+            {
+                "name": "Queso para torta",
+                "precio": "$15.00"
             }
         ]
     }
