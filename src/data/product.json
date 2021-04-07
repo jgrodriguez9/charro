@@ -76,6 +76,14 @@
                 "precio": "$75.00"
             },
             {
+                "name": "Huarache con sirloin",
+                "precio": "$75.00"
+            },
+            {
+                "name": "Huarache con bistec de res",
+                "precio": "$70.00"
+            },
+            {
                 "name": "Huarache con chorizo",
                 "precio": "$70.00"
             }
