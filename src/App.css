@@ -3,7 +3,7 @@ body{
   margin: 0;
 }
 .bg-dark1{
-  background-color: #282c34!important;
+  background-color: #987d90!important;
 }
 .bg-white1{
   background-color: #ffffff!important;
@@ -23,8 +23,8 @@ body{
    border-bottom: 1px solid #ffffff; 
    line-height: 0.1em;
    margin: 10px 0 20px;
-   font-size: 4rem;
-   font-weight: 300;
+   font-size: 2rem;
+   font-weight: 700;
 }
 .subtext-menu span, .subtext-menu-am span { 
   background:#282c34; 
@@ -78,6 +78,10 @@ body{
 }
 .mt-2rem{
   margin-top: 2rem;
+}
+.wh-100{
+  width: 100%;
+  height: 100%;
 }
 
 

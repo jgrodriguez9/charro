@@ -3,43 +3,62 @@ import { Col, Container, Row } from 'react-bootstrap';
 import CardProducto from './components/CardProducto';
 import products from './data/product.json'
 import productspm from './data/productpm.json'
+import { useEffect, useState } from 'react';
+import app from './firebase'
+import firebase from 'firebase/app'
+import "firebase/firestore"
+import Loading from './loader/Loading'
 
 function App() {
+  const [loading, setLoading] = useState(true)
+  const firebaseDB = firebase.firestore();
+  const [menus, setMenus] = useState([])
+
+  useEffect(()=>{
+    setLoading(true)
+    const menuS = async () =>{
+      const menuCollection = await firebaseDB.collection("menu").where("active", "==", true).orderBy("orden").get()
+      if(!menuCollection.empty){
+        let arr = []
+        menuCollection.forEach(doc=>{
+            console.log(doc.data())
+            //console.log(doc.id, " => ", doc.data());
+            // let obj = {
+            //     id: doc.id,
+            //     menu: doc.data()
+            // }
+            arr.push(doc.data())
+        })
+        setMenus(arr)
+        setLoading(false)
+      }
+    }
+
+    menuS()
+  },[])
+
   return (
-    <>
-      <section className="bg-white1 text-dark1">
-        <Container fluid>
-          <Row>
-            <Col xs="12" lg={{ span:"4", offset:"4"}} md={{ span:"8", offset:"2"}}>
-                <h1 className="text-center d-block text-menu">MENU</h1>
-                <h2 className="subtext-menu-am"><span>AM</span></h2> 
-            </Col>        
-          </Row>
-
-          <Row className="mt-5">          
-            <CardProducto items={products} pm={false}/>
-          </Row>
-        </Container>
-      </section>
-      <section className="bg-dark1 text-white1">
-        <Container fluid>
-            <Row>
-              <Col xs="12" lg={{ span:"4", offset:"4"}} md={{ span:"8", offset:"2"}}>
-                  <h1 className="text-center d-block text-menu">MENU</h1>
-                  <h2 className="subtext-menu"><span>PM</span></h2> 
-              </Col>        
-            </Row>
-
-            <Row className="mt-5">          
-              <CardProducto items={productspm} pm={true}/>
-            </Row>
-          </Container>
-      </section>
-    </>
     
-    
-    
-
+      loading ? <Loading /> :
+      <>
+        {
+          menus.map((item, i)=>(
+            <section key={i} className="bg-dark1 text-white1">
+              <Container fluid>
+                {i===0 && <Row>
+                  <Col xs="12" lg={{ span:"4", offset:"4"}} md={{ span:"8", offset:"2"}}>
+                      <h1 className="text-center d-block text-menu">MENU</h1>
+                      {/* <h2 className="subtext-menu"><span>{item.name_es}</span></h2>  */}
+                  </Col>        
+                </Row>}
+                <Row>          
+                  <CardProducto items={item.section.filter(el=>el.active).sort((a,b)=>{return a.orden - b.orden})} pm={false}/>
+                </Row>
+              </Container>
+            </section>
+          ))
+        }
+      </>
   );
 }
 
